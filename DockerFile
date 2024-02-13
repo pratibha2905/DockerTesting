@@ -1,0 +1,7 @@
+ FROM tomcat:9.0.85-jdk8-temurin-jammy
+ 
+ LABEL maintainer="pratibha Pandey"
+ 
+ #Transafer WAR File
+ 
+ CMD ["catalina.sh", "run"]
